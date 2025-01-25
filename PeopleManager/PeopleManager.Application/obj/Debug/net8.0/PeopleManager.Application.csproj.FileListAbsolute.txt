@@ -40,3 +40,4 @@ C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.pdb
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.genruntimeconfig.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\ref\PeopleManager.Application.dll
+C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.sourcelink.json

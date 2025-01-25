@@ -1,0 +1,20 @@
+<h2>Ajouter une personne</h2>
+<form (ngSubmit)="addPerson()">
+  <div>
+    <label for="firstName">Prénom:</label>
+    <input type="text" id="firstName" (ngModel)="firstName" name="firstName" required>
+  </div>
+  <div>
+    <label for="lastName">Nom:</label>
+    <input type="text" id="lastName" (ngModel)="lastName" name="lastName" required>
+  </div>
+  <div>
+    <label for="birthDate">Date de naissance:</label>
+    <input type="date" id="birthDate" (ngModel)="birthDate" name="birthDate" required>
+  </div>
+  <button type="submit">Ajouter la personne</button>
+
+  <div *ngIf="errorMessage" style="color: red;">
+    {{ errorMessage }}
+  </div>
+</form>

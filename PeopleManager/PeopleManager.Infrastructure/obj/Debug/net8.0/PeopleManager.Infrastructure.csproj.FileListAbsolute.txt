@@ -312,3 +312,4 @@ C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Infrastructure\obj\De
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Infrastructure\obj\Debug\net8.0\PeopleManager.Infrastructure.pdb
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Infrastructure\obj\Debug\net8.0\PeopleManager.Infrastructure.genruntimeconfig.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Infrastructure\obj\Debug\net8.0\ref\PeopleManager.Infrastructure.dll
+C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Infrastructure\obj\Debug\net8.0\PeopleManager.Infrastructure.sourcelink.json

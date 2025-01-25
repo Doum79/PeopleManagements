@@ -200,3 +200,4 @@ C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.API\obj\Debug\net8.0\
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.API\obj\Debug\net8.0\PeopleManager.API.pdb
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.API\obj\Debug\net8.0\PeopleManager.API.genruntimeconfig.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.API\obj\Debug\net8.0\ref\PeopleManager.API.dll
+C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.API\obj\Debug\net8.0\PeopleManager.API.sourcelink.json

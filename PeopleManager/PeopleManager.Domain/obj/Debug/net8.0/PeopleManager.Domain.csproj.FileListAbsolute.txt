@@ -26,3 +26,4 @@ C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.pdb
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.genruntimeconfig.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\ref\PeopleManager.Domain.dll
+C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.sourcelink.json
