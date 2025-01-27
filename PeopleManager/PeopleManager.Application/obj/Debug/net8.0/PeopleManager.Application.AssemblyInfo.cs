@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleManager.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e6ec0d6c064714acc3a49a54137a5c9a93a2c54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99693a77b8368cbe0f4a4ca8ee80e2646c184c1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleManager.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleManager.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

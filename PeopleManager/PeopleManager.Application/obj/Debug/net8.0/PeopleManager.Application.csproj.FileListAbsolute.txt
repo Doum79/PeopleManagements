@@ -34,10 +34,10 @@ C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.AssemblyInfoInputs.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.AssemblyInfo.cs
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.sourcelink.json
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleMa.0C42FF3E.Up2Date
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.dll
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\refint\PeopleManager.Application.dll
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.pdb
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.genruntimeconfig.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\ref\PeopleManager.Application.dll
-C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Application\obj\Debug\net8.0\PeopleManager.Application.sourcelink.json

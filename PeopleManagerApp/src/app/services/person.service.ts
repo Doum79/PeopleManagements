@@ -10,7 +10,7 @@ import { url } from 'inspector';
 })
 export class PersonService {
 
-  private readonly routeBase = '';
+  private readonly routeBase = 'api/persons';
   constructor(private readonly httpClient: HttpClient) { }
 
 
@@ -19,12 +19,7 @@ export class PersonService {
     const url = `${environment.apiBaseUrl}/${this.routeBase}`;
     return this.httpClient.post<Person>(url, person);
   }
-    // Ajouter un emploi pour une personne
-    addJob(personId: number, job: any): Observable<any> {
-      const url = `${environment.apiBaseUrl}/${this.routeBase}`;
-      return this.httpClient.post(`${url}/${personId}/jobs`, job);
-    }
-
+   
     // Récupérer toutes les personnes, triées par ordre alphabétique
     getAllPersons(): Observable<any[]> {
       const url = `${environment.apiBaseUrl}/${this.routeBase}`;
@@ -37,8 +32,5 @@ export class PersonService {
     return this.httpClient.get<any[]>(`${url}/company/${companyName}`);
   }
   
-  getJobsBetweenDates(personId: number, startDate: string, endDate: string): Observable<any[]> {
-    const url = `${environment.apiBaseUrl}/${this.routeBase}`;
-    return this.httpClient.get<any[]>(`${url}/${personId}/jobs?startDate=${startDate}&endDate=${endDate}`);
-  }
+ 
 }

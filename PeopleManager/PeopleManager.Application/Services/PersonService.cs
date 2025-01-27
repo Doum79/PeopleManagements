@@ -1,4 +1,5 @@
-﻿using PeopleManager.Domain.Entities;
+﻿using PeopleManager.Application.DTOs;
+using PeopleManager.Domain.Entities;
 using PeopleManager.Domain.Ports;
 using System;
 using System.Collections.Generic;
@@ -17,26 +18,32 @@ namespace PeopleManager.Application.Services
             _personRepository = personRepository;
         }
 
-        public async Task<Person> AddPersonAsync(string firstName, string lastName, DateTime birthDate)
+        public async Task<Person> AddPersonAsync(CreatePersonDto personDto)
         {
-            if ((DateTime.Now - birthDate).TotalDays / 365.25 > 150)
-                throw new ArgumentException("La personne ne peut pas avoir plus de 150 ans.");
-
-            var person = new Person
+            if (personDto.BirthDate > DateTime.Now.AddYears(-150))
             {
-                Id = Guid.NewGuid(),
-                FirstName = firstName,
-                LastName = lastName,
-                BirthDate = birthDate
-            };
+                var person = new Person
+                {
+                    FirstName = personDto.FirstName,
+                    LastName = personDto.LastName,
+                    BirthDate = personDto.BirthDate
+                };
 
-            await _personRepository.AddAsync(person);
-            return person;
+                await _personRepository.AddAsync(person);
+
+                return person;
+            }
+            else
+            {
+                throw new ArgumentException("La personne ne peut pas avoir plus de 150 ans.");
+            }
         }
 
         public async Task<IEnumerable<Person>> GetAllPersonsAsync()
         {
             return await _personRepository.GetAllAsync();
         }
+
+      
     }
 }

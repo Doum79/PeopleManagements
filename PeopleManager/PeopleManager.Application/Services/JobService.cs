@@ -1,4 +1,5 @@
-﻿using PeopleManager.Domain.Entities;
+﻿using PeopleManager.Application.DTOs;
+using PeopleManager.Domain.Entities;
 using PeopleManager.Domain.Ports;
 using System;
 using System.Collections.Generic;
@@ -17,16 +18,15 @@ namespace PeopleManager.Application.Services
             _jobRepository = jobRepository;
         }
 
-        public async Task AddJobToPersonAsync(Job jobs)
+        public async Task AddJobToPersonAsync(Guid personId, AddJobDto jobs)
         {
             var job = new Job
             {
-                Id = Guid.NewGuid(),
                 CompanyName = jobs.CompanyName,
                 Position = jobs.Position,
                 StartDate = jobs.StartDate,
-                EndDate = jobs.EndDate,
-                PersonId = jobs.PersonId
+                EndDate = jobs.EndDate, 
+                PersonId = personId
             };
 
             await _jobRepository.AddJobAsync(job);

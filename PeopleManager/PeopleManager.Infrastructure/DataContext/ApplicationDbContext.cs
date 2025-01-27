@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using PeopleManager.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,16 @@ namespace PeopleManager.Infrastructure.DataContext
         public DbSet<Person> Persons { get; set; }
         public DbSet<Job> Jobs { get; set; }
 
+        public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
+        {
+            public ApplicationDbContext CreateDbContext(string[] args)
+            {
+                var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+                optionsBuilder.UseSqlServer("Server=DESKTOP-59IHUTG\\SQLEXPRESS;Database=PersonManagementDB;Trusted_Connection=True;Trust Server Certificate=true");
+
+                return new ApplicationDbContext(optionsBuilder.Options);
+            }
+        }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {

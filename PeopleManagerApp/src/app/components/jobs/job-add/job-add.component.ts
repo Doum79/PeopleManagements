@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PersonService } from '../../../services/person.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { JobService } from '../../../services/job.service';
 
 @Component({
   selector: 'app-job-add',
@@ -18,7 +19,7 @@ export class JobAddComponent implements OnInit{
   endDate: string = '';
 
   constructor(
-    private personService: PersonService,
+    private jobService: JobService,
     private route: ActivatedRoute,
     private router: Router
   ) {}
@@ -37,7 +38,7 @@ export class JobAddComponent implements OnInit{
       endDate: this.endDate
     };
 
-    this.personService.addJob(this.personId, job).subscribe(response => {
+    this.jobService.addJob(this.personId, job).subscribe(response => {
       console.log('Job added successfully', response);
       this.router.navigate([`/persons/${this.personId}`]);  // Redirige vers la page de la personne
     }, error => {

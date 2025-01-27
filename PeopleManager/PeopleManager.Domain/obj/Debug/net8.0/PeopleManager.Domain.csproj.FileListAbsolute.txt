@@ -21,9 +21,9 @@ C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.AssemblyInfoInputs.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.AssemblyInfo.cs
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.sourcelink.json
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.dll
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\refint\PeopleManager.Domain.dll
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.pdb
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.genruntimeconfig.cache
 C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\ref\PeopleManager.Domain.dll
-C:\Users\ASF\PeopleManagements\PeopleManager\PeopleManager.Domain\obj\Debug\net8.0\PeopleManager.Domain.sourcelink.json

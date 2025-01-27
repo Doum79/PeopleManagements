@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PeopleManager.Application.DTOs;
 using PeopleManager.Application.Services;
 using PeopleManager.Domain.Entities;
 
@@ -15,12 +16,12 @@ namespace PeopleManager.API.Controllers
             _personService = personService;
         }
         [HttpPost]
-        public async Task<IActionResult> AddPerson([FromBody] Person request)
+        public async Task<IActionResult> AddPerson([FromBody] CreatePersonDto personDto)
         {
             try
             {
-                var person = await _personService.AddPersonAsync(request.FirstName!, request.LastName!, request.BirthDate);
-                return CreatedAtAction(nameof(_personService.GetAllPersonsAsync), new { id = person.Id }, person);
+              await  _personService.AddPersonAsync(personDto);
+                return Ok();
             }
             catch (Exception ex)
             {

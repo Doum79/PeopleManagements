@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManager.API", "PeopleManager.API\PeopleManager.API.csproj", "{ECCC78E3-54C6-492B-AC7B-D1021A28A315}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.API", "PeopleManager.API\PeopleManager.API.csproj", "{ECCC78E3-54C6-492B-AC7B-D1021A28A315}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManager.Domain", "PeopleManager.Domain\PeopleManager.Domain.csproj", "{2CAB07EE-DF0F-475F-A156-FC73FBDF087C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.Domain", "PeopleManager.Domain\PeopleManager.Domain.csproj", "{2CAB07EE-DF0F-475F-A156-FC73FBDF087C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManager.Application", "PeopleManager.Application\PeopleManager.Application.csproj", "{99B6BF9F-FF56-4E90-A5AE-9C3457C907C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.Application", "PeopleManager.Application\PeopleManager.Application.csproj", "{99B6BF9F-FF56-4E90-A5AE-9C3457C907C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManager.Infrastructure", "PeopleManager.Infrastructure\PeopleManager.Infrastructure.csproj", "{38B6C77E-2C5D-4738-A3BD-78430AC206B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleManager.Test", "PeopleManager.Test\PeopleManager.Test.csproj", "{AB39ECAB-1E37-4FEA-AC03-2826A7093103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.Infrastructure", "PeopleManager.Infrastructure\PeopleManager.Infrastructure.csproj", "{38B6C77E-2C5D-4738-A3BD-78430AC206B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{38B6C77E-2C5D-4738-A3BD-78430AC206B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B6C77E-2C5D-4738-A3BD-78430AC206B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B6C77E-2C5D-4738-A3BD-78430AC206B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB39ECAB-1E37-4FEA-AC03-2826A7093103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB39ECAB-1E37-4FEA-AC03-2826A7093103}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB39ECAB-1E37-4FEA-AC03-2826A7093103}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB39ECAB-1E37-4FEA-AC03-2826A7093103}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

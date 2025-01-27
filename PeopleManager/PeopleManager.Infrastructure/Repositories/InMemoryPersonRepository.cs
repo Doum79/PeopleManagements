@@ -27,10 +27,10 @@ namespace PeopleManager.Infrastructure.Repositories
 
         public async Task<IEnumerable<Person>> GetAllAsync()
         {
-            return await _context.Persons
-             .Include(p => p.Jobs)
-             .OrderBy(p => p.FirstName)
-             .ToListAsync();
+            return await _context.Persons.OrderBy(p => p.LastName)
+                                         .ThenBy(p => p.FirstName)
+                                         .AsNoTracking()
+                                         .ToListAsync();
         }
 
         public async Task<IEnumerable<Person>> GetByCompanyAsync(string companyName)
@@ -43,9 +43,7 @@ namespace PeopleManager.Infrastructure.Repositories
 
         public async Task<Person> GetByIdAsync(Guid id)
         {
-            return await _context.Persons
-                                 .Include(p => p.Jobs)
-                                 .FirstAsync(p => p.Id == id); // Exception si non trouvé
+             return await _context.Persons.FirstAsync(p => p.Id == id);
         }
     }
 }
